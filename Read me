@@ -1,0 +1,38 @@
+# 📚 Book Finder App
+
+A simple book search application built with **React** and the **Open Library API**.  
+This project allows users to search books by title, view book details, and open a preview page.
+
+---
+
+## 🚀 Features
+- 🔍 Search books by title  
+- 📖 Display book covers, title, and author  
+- 🔎 Preview button links to Open Library book page  
+- 🎨 Responsive card layout with clean UI  
+
+---
+
+## 🛠️ Tech Stack
+- **Framework:** React  
+- **Styling:** Inline CSS (can be extended to Tailwind / CSS Modules)  
+- **Data Fetching:** Open Library API (no auth required)  
+- **State Management:** React Hooks (`useState`)  
+
+---
+
+## 📦 Installation
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/your-username/book-finder-app.git
+cd book-finder-app
+npm install
+npm start
+
+
+src/
+ ├── App.js        # Main React component
+ ├── index.js      # Entry point
+ └── ...
